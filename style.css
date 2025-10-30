@@ -246,7 +246,7 @@ section {
 }
 
 .btn-color-2:hover {
-    background: none;
+    background: rgb(0,0,0);
 }
 
 .btn-color-2:hover {
@@ -284,10 +284,11 @@ section {
 }
 
 .arrow {
-    position: relative;
-    right: 2rem;
-    bottom: 2.5rem;
-    left: 80rem;
+    position: absolute; 
+    bottom: 2rem;      
+    right: 50%;
+    transform: translateX(50%);
+    display: block; 
 }
 
 .details-container {
@@ -431,4 +432,5 @@ footer {
 
 footer p {
     text-align: center;
+
 }

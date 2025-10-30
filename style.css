@@ -284,11 +284,15 @@ section {
 }
 
 .arrow {
-    position: absolute; 
-    bottom: 2rem;      
-    right: 50%;
-    transform: translateX(50%);
     display: block; 
+    width: fit-content; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem; 
+    margin-bottom: 2rem; 
+    bottom: auto;
+    right: auto;
+    transform: none;  
 }
 
 .details-container {
@@ -434,3 +438,4 @@ footer p {
     text-align: center;
 
 }
+

@@ -22,7 +22,7 @@
         display:block;
     }
     .arrow {
-        display:none;
+        display:block;
     }
     section, .section-container {
         height: fit-content;    
@@ -92,3 +92,4 @@
         text-align: justify;
     }
 }
+
